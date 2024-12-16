@@ -1,0 +1,42 @@
+.checkout {
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+    .checkout h1 {
+        text-align: center;
+    }
+
+    .checkout form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+        .checkout form div {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .checkout form label {
+            font-weight: bold;
+        }
+
+        .checkout form input {
+            padding: 8px;
+            font-size: 16px;
+        }
+
+        .checkout form button {
+            padding: 10px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+            .checkout form button:hover {
+                background-color: #0056b3;
+            }
